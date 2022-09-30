@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+<div id = "wrapper">
+    <h1>Js DOM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quidem sed nam quos minima ipsa doloribus, sequi fuga cupiditate modi rerum perspiciatis deleniti dicta? Facere doloremque est deserunt magni consectetur!</p>
+    <section id = "super-hero-section">
+        <h3 id = "superhero-list-heading"> SuperHeroes</h3>
+        <ul id = "superhero-list">
+            <li class = 'good'>SuperMen</li>
+            <li class = 'good'>Batman</li>
+            <li class = 'evil'>Loki</li>
+        </ul>
+
+        <button id = "toggle-heros-button" onclick="toggleSuperHeroes();">Hide</button>
+
+        <label for="superhero-name">Add SuperHero</label>
+        <input type="text" id = "superhero-name" />
+
+        <button id = "add-superhero" onclick="addSuperHero();">Add</button>
+    </section>
+</div>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
